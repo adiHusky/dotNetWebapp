@@ -21,9 +21,9 @@ sudo dpkg -i packages-microsoft-prod.deb
   sudo apt-get install -y aspnetcore-runtime-5.0
 - sudo apt-get install -y dotnet-runtime-5.0
 
-#Check the version to verify installation
+# Check the version to verify installation
 - dotnet version
 
-#Steps for running the project
+# Steps for running the project
 - dotnet run 
 - open Browser and run local server on the port mentioned ( It will be either 5001 or 5000 mostly)
